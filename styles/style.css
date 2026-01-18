@@ -230,6 +230,7 @@ nav li a{
 }
 .long-layout{
     grid-row: span 2;
+    grid-column: span 1;
 }
 .wide-layout{
     grid-column: span 2;
@@ -260,6 +261,7 @@ nav li a{
     }
     .section-title{
         font-size: 2rem;
+        margin-top: .5rem;
     }
     .about-card-container{
         grid-template-columns: repeat(2, 1fr);
