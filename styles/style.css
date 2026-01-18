@@ -320,6 +320,9 @@ nav li a{
     .about{
         padding: 20px;
     }
+    .stats-description{
+        font-size: .75rem;
+    }
     .section-title{
         font-size: 2rem;
         margin-top: 1rem;
