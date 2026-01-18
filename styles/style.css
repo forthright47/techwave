@@ -25,6 +25,9 @@
 .text-white{
     color: #FFFFFF;
 }
+.text-center{
+    text-align: center;
+}
 .btn-primary{
     border-radius: 1000px;
     border: none;
@@ -63,6 +66,16 @@
 }
 .bg-secondary{
     background-color: #2A186C;
+}
+.section-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.section-description{
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    opacity: .6;
 }
 /* navbar section styles */
 nav{
@@ -146,7 +159,7 @@ nav li a{
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 4.5rem;
 }
 .btn-1{
     display: flex;
@@ -157,6 +170,30 @@ nav li a{
     display: flex;
     align-items: center;
     gap: .3rem;
+}
+/* about section styles */
+.about{
+    padding: 50px 200px 120px 200px;
+}
+.about hr{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    opacity: .5;
+}
+.about-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.stats{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #00FF88;
+}
+.stats-description{
+    font-size: 1rem;
+    margin-top: .75rem;
+    opacity: .6;
 }
 /* responsive media query */
 /* for small devices */
