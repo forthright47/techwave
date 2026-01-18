@@ -215,8 +215,8 @@ nav li a{
     border-radius: 40px;
     padding: 40px;
 }
-#first-card{
-    padding-top: 120px;
+.long-card{
+    align-content: center;
 }
 .feature-title{
     font-size: 1.25rem;
@@ -266,6 +266,16 @@ nav li a{
     }
     .stats{
         font-size: 2.5rem;
+    }
+    .features{
+        padding: 20px;
+    }
+    .features-card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .features-card{
+        grid-row: span 1;
+        grid-column: span 1;
     }
 }
 /* for large devices */
