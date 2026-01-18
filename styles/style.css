@@ -234,7 +234,7 @@ nav li a{
 .features-card-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(3);
     gap: 30px;
     margin-top: 40px;
 }
@@ -322,7 +322,7 @@ nav li a{
     }
     .section-title{
         font-size: 2rem;
-        margin-top: .5rem;
+        margin-top: 1rem;
     }
     .about-card-container{
         grid-template-columns: repeat(2, 1fr);
@@ -334,10 +334,14 @@ nav li a{
         padding: 20px;
     }
     .features-card-container{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
+        padding: 20px;
+        padding-left: 10px;
+        margin-top: 10px;
     }
-    .features-card{
-        grid-row: span 1;
+    .long-layout,
+    .wide-layout,
+    .normal-layout{
         grid-column: span 1;
     }
 }
