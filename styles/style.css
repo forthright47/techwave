@@ -95,6 +95,21 @@ nav li a{
   margin: 0 auto;
   z-index: 2;
   margin-top: 30px;
+  position: relative;
+}
+#badge{
+    background-color: #00FF88;
+    color: #1A0B2E;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 1000px;
+    border: none;
+    position: absolute;
+    z-index: 2;
+    left: 65%;
+    top: 18%;
+    box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);
 }
 .banner-image-container{
     position: relative;
