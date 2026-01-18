@@ -210,6 +210,18 @@ nav li a{
     .width-container{
         margin: 0 auto;
     }
+    .about{
+        padding: 20px;
+    }
+    .section-title{
+        font-size: 2rem;
+    }
+    .about-card-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stats{
+        font-size: 2.5rem;
+    }
 }
 /* for large devices */
 @media screen and (min-width: 993px) {
