@@ -206,7 +206,10 @@ nav li a{
     nav{
         align-items: center;
         padding: 15px;
-    }    
+    } 
+    .nav-title{
+        font-size: 2rem;
+    }   
     .width-container{
         margin: 0 auto;
     }
