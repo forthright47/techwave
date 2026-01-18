@@ -178,12 +178,13 @@ nav li a{
 .about hr{
     margin-top: 3rem;
     margin-bottom: 3rem;
-    opacity: .5;
+    opacity: .3;
 }
 .about-card-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
     align-items: center;
-    justify-content: space-around;
 }
 .stats{
     font-size: 3rem;
