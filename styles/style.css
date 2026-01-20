@@ -267,9 +267,54 @@ nav li a{
     grid-row: span 1;
     grid-column: span 1;
 }
+/* featured episodes section styles */
+.episodes{
+    padding: 100px 200px;
+}
+.episode-section-title{
+    margin-bottom: 30px;
+}
+.playlist-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.playlist{
+    max-width: 380px;
+    border: none;
+    border-radius: 30px;
+    background-color: #250D44;
+}
+.playlist iframe{
+    width: 100%;
+    border-radius: 30px;
+}
+.playlist-content{
+    padding: 20px;
+}
+.playlist-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.playlist-description{
+    font-size: .9rem;
+    opacity: .5;
+    margin-bottom: 10px;
+}
+.logo-duration{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.playlist-duration{
+    font-size: .9rem;
+}
 /* responsive media query */
 /* for small devices */
 @media screen and (max-width: 576px) {
+    /* navbar section styles */
     .menu-links,
     .btn-primary{
         display: none;
@@ -284,6 +329,7 @@ nav li a{
     .width-container{
         margin: 0 auto;
     }
+    /* banner section styles */
     .banner{
         flex-direction: column;
         background-position: center;
@@ -317,6 +363,7 @@ nav li a{
     .banner-description{
         padding: 0 20px 20px 20px;
     }
+    /* about section styles */
     .about{
         padding: 20px;
     }
@@ -333,6 +380,7 @@ nav li a{
     .stats{
         font-size: 2.5rem;
     }
+    /* features section styles */
     .features{
         padding: 20px;
     }
