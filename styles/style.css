@@ -273,6 +273,7 @@ nav li a{
 }
 .episode-section-title{
     margin-bottom: 30px;
+    margin-top: -20px;
 }
 .playlist-container{
     display: grid;
@@ -404,6 +405,7 @@ nav li a{
     }
     .playlist-container{
         grid-template-columns: 1fr;
+        padding: 10px;
     }
     .playlist{
         width: 100%;
