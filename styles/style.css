@@ -311,6 +311,7 @@ nav li a{
 }
 .playlist-duration{
     font-size: .9rem;
+    color: #00FF88;
 }
 /* meet the host section styles */
 .host{
