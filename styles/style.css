@@ -395,6 +395,20 @@ nav li a{
     .normal-layout{
         grid-column: span 1;
     }
+    /* featured episodes section styles */
+    .episodes{
+        padding: 5px;
+    }
+    .episode-section-title{
+        font-size: 2.3rem;
+    }
+    .playlist-container{
+        grid-template-columns: 1fr;
+    }
+    .playlist{
+        width: 100%;
+        justify-self: center;
+    }
 }
 /* for large devices */
 @media screen and (min-width: 993px) {
