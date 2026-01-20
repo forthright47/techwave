@@ -450,6 +450,28 @@ nav li a{
         width: 100%;
         justify-self: center;
     }
+    /* meet the host section styles */
+    .host{
+        padding: 20px;
+    }
+    .host-section-title{
+        margin-top: -60px;
+        font-size: 2.3rem;
+    }
+    .host-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    .host-name{
+        font-size: 1.5rem;
+    }
+    .host-experience{
+        text-align: center;
+        font-size: 0.8rem;
+    }
+    .social-links{
+        justify-content: center;
+    }
 }
 /* for large devices */
 @media screen and (min-width: 993px) {
